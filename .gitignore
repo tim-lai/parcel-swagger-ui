@@ -6,6 +6,8 @@
 
 # Parcel files
 .parcel-cache/
+# parcel@1
+./cache 
 
 # misc
 .vscode
