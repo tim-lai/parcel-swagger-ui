@@ -1,0 +1,11 @@
+{
+  "name": "parcel-swagger-ui",
+  "version": "0.0.1",
+  "scripts": {
+    "start": "parcel src/index.html"
+  },
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "devDependencies": {
+    "parcel": "^2.6.0"
+  }
+}

@@ -1,0 +1,17 @@
+# dependencies
+/node_modules
+
+# production
+/dist
+
+# Parcel files
+.parcel-cache/
+
+# misc
+.vscode
+.DS_Store
+npm-debug.log*
+
+# idea
+.idea
+*.iml
