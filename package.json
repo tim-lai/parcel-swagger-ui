@@ -2,16 +2,25 @@
   "name": "parcel-swagger-ui",
   "version": "0.0.1",
   "scripts": {
-    "start": "parcel src/index.html"
+    "start": "parcel src/index.html --log-level verbose"
   },
-  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "browserslist": "> 1%, last 2 versions, not dead, Firefox ESR",
+  "engines": {
+    "node": ">=14"
+  },
   "devDependencies": {
+    "@babel/core": "^7.18.2",
+    "@babel/plugin-proposal-class-properties": "^7.17.12",
+    "@babel/plugin-proposal-optional-chaining": "^7.17.12",
+    "@babel/plugin-transform-runtime": "^7.18.2",
+    "babel-plugin-transform-react-remove-prop-types": "^0.4.24",
     "buffer": "^6.0.3",
     "parcel": "^2.6.0",
     "process": "^0.11.10",
     "querystring-es3": "^0.2.1"
   },
   "dependencies": {
+    "@babel/runtime-corejs3": "^7.18.3",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "swagger-ui": "^4.11.1"
