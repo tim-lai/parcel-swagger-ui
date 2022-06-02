@@ -6,7 +6,8 @@
   },
   "browserslist": "> 0.5%, last 2 versions, not dead",
   "alias": {
-    "./node_modules/swagger-ui/dist/swagger-ui-es-bundle-core.js": "./node_modules/swagger-ui/dist/swagger-ui.js"
+    "./node_modules/swagger-ui-react/index.js": "./node_modules/swagger-ui-react/commonjs.js",
+    "./node_modules/swagger-ui-react/swagger-ui-es-bundle-core.js": "./node_modules/swagger-ui/dist/swagger-ui.js"
   },
   "devDependencies": {
     "buffer": "^6.0.3",
@@ -19,6 +20,7 @@
   "dependencies": {
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "swagger-ui": "^4.11.1"
+    "swagger-ui": "^4.11.1",
+    "swagger-ui-react": "^4.11.1"
   }
 }
