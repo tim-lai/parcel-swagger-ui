@@ -1,9 +1,12 @@
 # parcel-swagger-ui
 SwaggerUI built with Parcel
 
-The latest working branch is [feat/swagger-ui-cjs-as-hooks](https://github.com/tim-lai/parcel-swagger-ui/tree/feat/swagger-ui-cjs-as-hooks)
+The latest working branch is [feat/swagger-ui-cjs-as-hooks](https://github.com/tim-lai/parcel-swagger-ui/tree/feat/swagger-ui-cjs-as-hooks)  
 
-The prior progressive branches contain a functioning SPA as well.
+The prior progressive branches contain a functioning SPA as well.  
+
+This project references work from a related repo [here](https://github.com/char0n/parcel-swagger-ui/tree/main), which also contains working branches with detailed explanations for [Parcel + `swagger-ui-react`](https://github.com/char0n/parcel-swagger-ui/tree/swagger-ui-react), as well as [Parcel + `swagger-ui`](https://github.com/char0n/parcel-swagger-ui/tree/swagger-ui).  
+
 
 # installation
 `npm i`  
