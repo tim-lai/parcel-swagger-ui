@@ -1,6 +1,17 @@
 # parcel-swagger-ui
 SwaggerUI built with Parcel
 
+The latest working branch is [feat/swagger-ui-cjs-as-hooks](https://github.com/tim-lai/parcel-swagger-ui/tree/feat/swagger-ui-cjs-as-hooks)
+
+The prior progressive branches contain a functioning SPA as well.
+
 # installation
-`npm i`
-`npm start`
+`npm i`  
+`npm start`  
+
+# project progression
+1. [feat/swagger-ui-cjs-as-globalThis](https://github.com/tim-lai/parcel-swagger-ui/tree/feat/swagger-ui-cjs-as-globalThis): creates `.parcelrc` for css transform exlusion, uses `swagger-ui/dist/swagger-ui-es-bundle` in place of true ESM fragment, and uses `initializer.js` to instantiate a SwaggerUI instance.  
+
+2. [feat/swagger-ui-cjs-as-class](https://github.com/tim-lai/parcel-swagger-ui/tree/feat/swagger-ui-cjs-as-class): converts from a globalThis instance to a React class component, as well as setting up a Parcel alias for `swagger-ui` to use CommonJS bundle.  
+
+3. [feat/swagger-ui-cjs-as-hooks](https://github.com/tim-lai/parcel-swagger-ui/tree/feat/swagger-ui-cjs-as-hooks): converts from class component to functional component,  
