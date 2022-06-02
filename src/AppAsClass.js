@@ -3,7 +3,7 @@ import SwaggerUI from 'swagger-ui';
 
 class App extends React.Component{
   componentDidMount() {
-    window.ui = SwaggerUI({
+    globalThis.ui = SwaggerUI({
       url: 'https://petstore.swagger.io/v2/swagger.json',
       dom_id: '#swagger-ui-root'
     });
