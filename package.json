@@ -5,11 +5,16 @@
     "start": "parcel src/index.html"
   },
   "browserslist": "> 0.5%, last 2 versions, not dead",
+  "alias": {
+    "./node_modules/swagger-ui/dist/swagger-ui-es-bundle-core.js": "./node_modules/swagger-ui/dist/swagger-ui.js"
+  },
   "devDependencies": {
     "buffer": "^6.0.3",
+    "events": "^3.3.0",
     "parcel": "^2.6.0",
     "process": "^0.11.10",
-    "querystring-es3": "^0.2.1"
+    "querystring-es3": "^0.2.1",
+    "stream-browserify": "^3.0.0"
   },
   "dependencies": {
     "react": "^17.0.2",

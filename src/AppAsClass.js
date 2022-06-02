@@ -1,5 +1,5 @@
 import React from 'react';
-import SwaggerUI from 'swagger-ui/dist/swagger-ui-es-bundle';
+import SwaggerUI from 'swagger-ui';
 
 class App extends React.Component{
   componentDidMount() {
